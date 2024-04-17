@@ -1,5 +1,5 @@
-const BASEURL0 = 'https://proto-api2-0.vercel.app/api'
-const BASEURL = 'http://localhost:4000/api'
+const BASEURL = 'https://proto-api2-0.vercel.app/api'
+const BASEURL0 = 'http://localhost:4000/api'
 export const LoginFunction = async (data) => {
     try {
         const response = await fetch(`${BASEURL}/auth/signin`, {
